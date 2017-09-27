@@ -2,9 +2,9 @@ function CalcularTrajetoria()
 
 % disp('s');
 if(length(obj.caminho.T) ==  1)
-    errordlg('ERRO - N√O EXISTEM WAYPOINTS MARCADOS');
+    errordlg('ERRO - N√ÉO EXISTEM WAYPOINTS MARCADOS');
     return
-end
+final
 obj.Tmax = obj.caminho.T(end);
 obj.plot.t = 0:obj.dt:obj.Tmax;
 
